@@ -1,13 +1,6 @@
 title: 'BitCamp: Creating a Song Recommendation Engine with Azure'
 description: (Add Description Here)
 template:
-  name: bit-camp
-  repo: bit-camp-template
-before:
-  - type: createPullRequest
-    title: 'Week 0: Welcome to BitCamp!'
-    body: new_issue.md
-    head: bitcamp
   - type: updateBranchProtection
     enforce_admins: false
     required_pull_request_reviews:
